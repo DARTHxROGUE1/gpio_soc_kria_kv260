@@ -1,7 +1,7 @@
 # gpio_soc_kria_kv260
 project currently under progress having problems in bitstream
 
-System On Chip(SOC) desing to target the Xilinx Kria KV260 board. The core of the system is picorv32, a RISC-V CPU,with custom GPIO and a simple UART peripheral.
+System On Chip(SOC) desing to target the Xilinx Kria KV260 board. The core of the system is picorv32, a RISC-V CPU,with custom GPIO and a simple UART peripheral.It also contains a simple RAM unit nothing too fancy.
 
 
 /rtl : source files for soc,picorv32 core and peripheral wrappers
