@@ -1,4 +1,5 @@
 # gpio_soc_kria_kv260
+project currently under progress having problems in bitstream
 IMPLEMENTATION
 <img width="619" height="544" alt="Screenshot 2026-02-02 174810" src="https://github.com/user-attachments/assets/0b134add-d1ad-45c4-8207-787f818b8e14" />
 RTL SYNTHESIS
