@@ -1,5 +1,3 @@
-
-
 module uart #(parameter integer DEFAULT_DIV = 434) (
     input wire clk, resetn, ser_rx, reg_div_we, reg_data_we, reg_data_re,
     input wire [31:0] reg_div_di, reg_data_di,
@@ -67,7 +65,7 @@ end else begin
             
     if (reg_div_we) send_dummy <= 1;
     if (send_bitcnt) send_divcnt <= send_divcnt + 1;//increment timing cnt
-    // send dummy pattern of 15 bits after divider change
+    // send next bit if time reached
     else begin
     if (send_dummy && !send_bitcnt) begin
         send_pattern <= 10'h3FF; send_bitcnt <= 15;
@@ -81,5 +79,6 @@ end else begin
                 send_bitcnt <= send_bitcnt - 1; send_divcnt <= 0;
             end
         end
+    end
     end
 endmodule
