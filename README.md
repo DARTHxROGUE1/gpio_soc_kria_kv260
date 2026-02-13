@@ -24,7 +24,7 @@ Run Synthesis, Implementation, and Generate Bitstream.
 ## Implementation
 <img width="619" height="544" alt="Screenshot 2026-02-02 174810" src="https://github.com/user-attachments/assets/0b134add-d1ad-45c4-8207-787f818b8e14" />
 
-## RTL Sysnthesis
+## RTL 
 
 <img width="1082" height="330" alt="Screenshot 2026-02-02 173515" src="https://github.com/user-attachments/assets/1a0416cd-4d52-425c-ba76-a6d51994285e" />
 <img width="1391" height="265" alt="Screenshot 2026-02-02 173246" src="https://github.com/user-attachments/assets/1fe9230d-1e1c-4be6-8e24-bb466d4eabf8" />
